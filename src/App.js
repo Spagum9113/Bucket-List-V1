@@ -38,7 +38,7 @@ class App extends Component {
         {/* Header Text */}
         <div className="app-container">
           <h1 className="title"> bucket list. </h1>
-          <h1 className="title"> bucket testing. </h1>
+          <h1 className="title"> bucket. </h1>
 
           <p className="subtitle"> 100 things to do before i die or become a zombie. </p>
 
