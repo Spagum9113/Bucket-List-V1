@@ -26,6 +26,8 @@ class App extends Component {
     const secondCol = bucketList.slice(33, 67)
     const thirdCol = bucketList.slice(67)
 
+    const completedCount = bucketList.filter((item) => item.completed).length
+
 
 
 
@@ -39,7 +41,7 @@ class App extends Component {
 
           <p className="subtitle"> 100 things to do before i die or become a zombie. </p>
 
-          <p className="completed"> completed: 2 </p>
+          <p className="completed"> completed: {completedCount} </p>
 
           <img className="zombie-sticker" src="zombieSticker2.png" alt="zomebie-sticker" />
 
@@ -71,9 +73,6 @@ class App extends Component {
           </div>
 
         </div>
-
-
-
 
 
         {/* <div>
